@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f0f0f0, #d3e3ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 440px;
+}
+
+h1 {
+  color: #333;
+}
+
+.author {
+  color: #007bff;
+}
+
+.input-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+.result {
+  margin-top: 25px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.buy {
+  color: #00c853;
+  font-weight: bold;
+}
+
+.sell {
+  color: #e53935;
+  font-weight: bold;
+}
+
+.hold {
+  color: #444;
+  font-weight: bold;
+}
